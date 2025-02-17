@@ -18,6 +18,7 @@ mkdir -p ~/.config/polybar
 rsync -av ./mis_configuraciones/.config/polybar/ ~/.config/polybar/
 
 # Copiar Scripts de Polybar
+mkdir -p ~/.config/polybar/scripts
 rsync -av ./mis_configuraciones/.config/scripts/ ~/.config/polybar/scripts/
 
 # Copiar configuraciones de bspwm
